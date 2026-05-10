@@ -1,10 +1,10 @@
-# Virtual environment
+# Virtual Environments
 .venv/
 env/
 ENV/
 venv/
 
-# Python
+# Python Cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -26,24 +26,22 @@ build/
 *~
 .DS_Store
 
-# Datasets (large files)
+# Large Datasets & Model Weights
 railway_dataset2/
-
-# Model weights
 *.pth
 *.pt
 *.onnx
 *.h5
 *.pth.tar
 
-# Video files
+# Video Files
 *.mp4
 *.avi
 *.mov
 *.mkv
 *.webm
 
-# Demo results and outputs
+# Output & Temp Files
 demo_results/
 temp_*.mp4
 temp_*.avi
@@ -53,14 +51,13 @@ static/temp/
 # Logs
 *.log
 logs/
+runs/
+CrowdCounting-P2PNet/runs/
+CrowdCounting-P2PNet/log/
 
-# Jupyter
+# Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Environment files
+# Environment Variables
 .env
 .env.local
-
-
-#runs
-runs/
